@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN"
+"http://joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" group="user">
+  <name>User - jquarks4s</name>
+  <creationDate>12-Nov-2010</creationDate>
+  <author>IP-Tech Labs</author>
+  <authorEmail>labs@iptech-offshore.com</authorEmail>
+  <authorUrl>http://www.iptechinside.com/labs/projects/show/jquarks-for-surveys-for-surveys</authorUrl>
+  <copyright>2010 IP-Tech</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.1.0</version>
+  <description />
+  <files folder="site">
+    <filename plugin="jquarks4s">jquarks4s.php</filename>
+  </files>
+</install>
