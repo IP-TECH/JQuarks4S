@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="All surveys">
+        <message>
+            <![CDATA[Display all available surveys]]>
+        </message>
+    </layout>
+    <state>
+        <name>All surveys</name>
+        <description>Display all available surveys</description>
+    </state>
+</metadata>

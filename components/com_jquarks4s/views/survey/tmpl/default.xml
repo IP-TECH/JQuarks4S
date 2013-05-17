@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Survey">
+        <message>
+            <![CDATA[Display a specific survey]]>
+        </message>
+    </layout>
+    <state>
+        <name>Survey</name>
+        <description>Display a specific survey</description>
+        <url addpath="/administrator/components/com_jquarks4s/elements">
+            <param name="id" type="survey" label="Survey" description="Select a survey" />
+        </url>
+    </state>
+</metadata>

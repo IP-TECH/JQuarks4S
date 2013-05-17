@@ -1,0 +1,89 @@
+table.toolbar span { float: none; width: 64px; height: 64px; margin: 0 auto; display: block; }
+
+div.icon a {
+	display: block;
+	float: left;
+	border: 1px solid #f0f0f0;
+	height: 97px;
+	width: 108px;
+	color: #666;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/** home toolbar icons **/
+ .icon-32-question {
+     background-image: url(../images/question.png);
+     
+ }
+.icon-32-section {
+    background-image: url(../images/section.png);
+    
+}
+
+.icon-32-survey {
+    background-image: url(../images/survey.png);
+    
+}
+
+.icon-32-session {
+    background-image: url(../images/session.png);
+}
+
+.icon-32-print {
+    background-image: url(../images/print.png);
+}
+
+.icon-32-chart {
+    background-image: url(../images/chart.png);
+}
+
+.icon-32-table {
+    background-image: url(../images/table.png);
+}
+
+.icon-32-pie {
+    background-image: url(../images/pie.png);
+}
+
+.icon-32-next {
+    background-image: url(../images/next.png);
+}
+
+.icon-32-export {
+    background-image: url(../images/export.png);
+}
+
+.icon-32-camera {
+    background-image: url(../images/camera.png);
+}
+
+
+/** Component toolbar titles icons **/
+.icon-48-generic {
+    background-image: url(../images/icon-48-generic.png);
+}
+
+.icon-48-section {
+    background-image: url(../images/icon-48-section.png);
+}
+
+.icon-48-survey {
+    background-image: url(../images/icon-48-survey.png);
+}
+
+.icon-48-question {
+    background-image: url(../images/icon-48-question.png);
+}
+
+.icon-48-session {
+    background-image: url(../images/icon-48-session.png);
+}
+
+.icon-48-analysis {
+    background-image: url(../images/icon-48-analysis.png);
+}
+
+.icon-48-export {
+    background-image: url(../images/icon-48-export.png);
+}

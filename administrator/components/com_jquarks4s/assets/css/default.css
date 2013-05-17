@@ -1,0 +1,30 @@
+/**
+ * @version SVN: $Id$
+ * @package    JQuarks4s
+ * @subpackage Assets
+ * @author     IP-Tech Labs {@link http://www.iptechinside.com/labs/projects/show/jquarks-for-surveys}
+ */
+
+/* red link */
+a:link.red, a:active.red, a:visited.red, a:hover.red {
+    color: red;
+    background-color: white;
+}
+
+/* green link */
+a:link.green, a:active.green, a:visited.green, a:hover.green {
+    color: green;
+    background-color: white;
+}
+
+/* black link */
+a:link.black, a:active.black, a:visited.black, a:hover.black {
+    color: black;
+    background-color: white;
+}
+
+/* maroon link */
+a:link.maroon, a:active.maroon, a:visited.maroon, a:hover.maroon {
+    color: #b03060;
+    background-color: white;
+}

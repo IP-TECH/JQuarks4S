@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5" method="upgrade">
+  <name>JQuarks4s</name>
+  <creationDate>31-Dec-2010</creationDate>
+  <author>IP-Tech Labs</author>
+  <authorEmail>labs@iptech-offshore.com</authorEmail>
+  <authorUrl>http://www.iptechinside.com/labs/projects/show/jquarks-for-surveys-for-surveys</authorUrl>
+  <copyright>2010 IP-Tech</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.1.2a</version>
+  <description>JQuarks For Surveys</description>
+  <installfile>install/install.package.php</installfile>
+  <uninstallfile>install/uninstall.package.php</uninstallfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">install/sql/install.utf.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">install/sql/uninstall.utf.sql</file>
+    </sql>
+  </uninstall>
+  <files folder="site">
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>language</folder>
+    <folder>models</folder>
+    <folder>views</folder>
+    <filename>jquarks4s.php</filename>
+  </files>
+  <languages folder="site/language">
+    <language tag="en-GB">en-GB.com_jquarks4s.ini</language>
+    <language tag="fr-FR">fr-FR.com_jquarks4s.ini</language>
+  </languages>
+  <administration>
+    <menu img="components/com_jquarks4s/assets/images/com_jquarks4s.ico" link="option=com_jquarks4s">JQuarks4s</menu>
+    <files folder="admin">
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>elements</folder>
+      <folder>helpers</folder>
+      <folder>install</folder>
+      <folder>language</folder>
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <filename>CHANGELOG.php</filename>
+      <filename>admin.jquarks4s.php</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>index.html</filename>
+    </files>
+    <languages folder="admin/language">
+      <language tag="en-GB">en-GB.com_jquarks4s.ini</language>
+      <language tag="fr-FR">fr-FR.com_jquarks4s.ini</language>
+    </languages>
+  </administration>
+  <modules>
+    <module module="mod_jquarks4s" title="JQuarks4s" client="site" position="left" ordering="1">
+      <files folder="mod_jquarks4s">
+        <folder>tmpl</folder>
+        <file>helper.php</file>
+        <file>index.html</file>
+        <file>mod_jquarks4s.php</file>
+        <file>mod_jquarks4s.xml</file>
+      </files>
+      <languages folder="mod_jquarks4s/language">
+        <language tag="en-GB">en-GB.mod_jquarks4s.ini</language>
+        <language tag="fr-FR">fr-FR.mod_jquarks4s.ini</language>
+      </languages>
+      <params>
+        <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX"/>
+        <param name="@spacer" type="spacer" default="" label="" description=""/>
+        <param name="nbrMaxSurveys" type="text" default="2" label="NUMBER_OF_SURVEYS" description="NUMBER_OF_SURVEYS_TO_DISPLAY"/>
+      </params>
+    </module>
+  </modules>
+  <plugins>
+    <plugin plugin="jquarks4s" group="user" title="User - jquarks4s" order="1">
+      <files folder="plg_user_jquarks4s">
+        <file>jquarks4s.php</file>
+        <file>jquarks4s.xml</file>
+      </files>
+      <params/>
+    </plugin>
+  </plugins>
+  <params/>
+</install>
